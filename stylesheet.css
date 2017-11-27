@@ -1,0 +1,53 @@
+body {
+  background-color: #708090;
+  margin-top: 160px;
+}
+.twitch-well {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 0px;
+  padding-bottom: 40px;
+  background-color: #b0c4de;
+  border: none;
+}
+h1 {
+  font-weight: bold;
+  color: #696969;
+  padding-top: 20px; 
+}
+.status {
+ float: right;
+ margin-top: -80px;
+}
+.status-btn {
+  font-size: 12px;
+  height: 16px;
+  font-weight: bolder;
+  text-align: right;
+  width: 28px;
+  margin-bottom: 14px;
+  transition: all .1s ease-in-out;
+  border: none;
+  background-color: white;
+  color: transparent;
+  display: block;
+}
+.status-btn:hover {
+  width: 100px;
+  color: black;
+}
+.bubble {
+  float: left;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px; 
+}
+#all {
+  background-color: blue;
+}
+#online {
+  background-color: green;
+}
+#offline {
+  background-color: red;
+}
